@@ -1,3 +1,6 @@
+#Test for pipenv requests installation
+#pipenv run python main.py
+
 import requests
 
 response = requests.get('https://httpbin.org/ip')
